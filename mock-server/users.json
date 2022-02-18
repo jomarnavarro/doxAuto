@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "brian",
+      "email": "brian@findox.com",
+      "password": "brian",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "omar",
+      "email": "omarn@bigmkt.org",
+      "password": "test1234",
+      "role": "employee"
+    }
+  ]
+}

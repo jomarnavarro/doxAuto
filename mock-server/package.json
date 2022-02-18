@@ -1,0 +1,17 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Creates a mock server for the findox app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./db.json",
+    "start-auth": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
